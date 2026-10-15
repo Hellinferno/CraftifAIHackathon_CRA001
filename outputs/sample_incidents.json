@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "pipeline_id": "safezone_rt_pipegen_v0_5_1",
+  "timestamp_utc": "2026-10-15T18:15:04.218Z",
+  "camera_id": "cam0",
+  "frame_id": 152,
+  "roi_zone": "Restricted_Zone_A",
+  "event_type": "PPE_AND_ZONE_VIOLATION",
+  "severity": "CRITICAL",
+  "object": {
+    "tracker_id": 7,
+    "class_label": "no-hardhat",
+    "confidence": 0.94,
+    "bbox_px": {
+      "left": 612,
+      "top": 348,
+      "width": 124,
+      "height": 290
+    }
+  }
+}

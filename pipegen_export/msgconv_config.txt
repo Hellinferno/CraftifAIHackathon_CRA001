@@ -1,0 +1,24 @@
+[sensor0]
+enable=1
+type=Camera
+id=cam_assembly_bay_01
+location=12.9716;77.5946;0.0
+description=Industrial Assembly Bay Hazard Zone Camera
+coordinate=0.0;0.0;0.0
+
+[place0]
+enable=1
+id=0
+type=Industrial_Floor
+name=SafeZone_Restricted_Bay_A
+location=12.9716;77.5946;0.0
+coordinate=0.0;0.0;0.0
+place-sub-field1=Restricted_Zone_A
+place-sub-field2=PPE_Mandatory_Zone
+
+[analytics0]
+enable=1
+id=safezone_rt_pipegen_v0_5_1
+description=YOLOv8 TensorRT + NvDCF + Hazard ROI Sentinel
+source=CraftifAI_PipeGen_v0.5.1
+version=1.0

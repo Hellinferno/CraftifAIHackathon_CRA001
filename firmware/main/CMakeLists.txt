@@ -1,0 +1,23 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "../drivers/mac_id/mac_reader.c"
+        "../modules/ble_name/ble_name_fmt.c"
+        "../modules/ble_adv/ble_adv.c"
+        "../modules/cmd_parser/uart_cmd_parser.c"
+        "../modules/logger/safezone_log.c"
+        "../bsp/gpio_actuator.c"
+    INCLUDE_DIRS
+        "."
+        "../drivers/mac_id/include"
+        "../modules/ble_name/include"
+        "../modules/ble_adv/include"
+        "../modules/cmd_parser/include"
+        "../modules/logger/include"
+        "../bsp/include"
+    REQUIRES
+        nvs_flash
+        bt
+        driver
+        esp_timer
+)

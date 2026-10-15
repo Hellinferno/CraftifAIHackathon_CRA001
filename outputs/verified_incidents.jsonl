@@ -1,0 +1,9 @@
+{"timestamp": "2026-10-15 18:15:04 UTC", "camera_id": "cam0", "zone": "Restricted_Zone_A", "violation": "NO-HARDHAT", "tracker_id": 7, "confidence": "0.94"}
+{"timestamp": "2026-10-15 18:15:09 UTC", "camera_id": "cam0", "zone": "Restricted_Zone_A", "violation": "NO-SAFETY-VEST", "tracker_id": 12, "confidence": "0.91"}
+{"timestamp": "2026-10-15 13:20:06 UTC", "camera_id": "laptop_cam_01", "zone": "Restricted_Zone_A", "violation": "NO-HARDHAT", "tracker_id": 7, "confidence": "0.96"}
+{"timestamp": "2026-10-15 13:20:06 UTC", "camera_id": "laptop_cam_01", "zone": "Restricted_Zone_A", "violation": "NO-SAFETY-VEST", "tracker_id": 12, "confidence": "0.91"}
+{"timestamp": "2026-10-15 13:20:06 UTC", "camera_id": "laptop_cam_01", "zone": "Restricted_Zone_A", "violation": "NO-SAFETY-VEST", "tracker_id": 12, "confidence": "0.92"}
+{"timestamp": "2026-10-15 13:20:06 UTC", "camera_id": "laptop_cam_01", "zone": "Restricted_Zone_A", "violation": "NO-SAFETY-VEST", "tracker_id": 12, "confidence": "0.93"}
+{"timestamp": "2026-10-15 13:20:06 UTC", "camera_id": "laptop_cam_01", "zone": "Restricted_Zone_B", "violation": "NO-HARDHAT", "tracker_id": 19, "confidence": "0.88"}
+{"timestamp": "2026-10-15 13:20:06 UTC", "camera_id": "laptop_cam_01", "zone": "Restricted_Zone_B", "violation": "NO-HARDHAT", "tracker_id": 19, "confidence": "0.90"}
+{"timestamp": "2026-10-15 13:20:06 UTC", "camera_id": "laptop_cam_01", "zone": "Restricted_Zone_B", "violation": "NO-HARDHAT", "tracker_id": 19, "confidence": "0.92"}
