@@ -274,7 +274,7 @@ safezone-rt-pipegen/
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/Hellinferno/safezone-rt-pipegen.git
+git clone https://github.com/Hellinferno/CraftifAIHackathon_CRA001.git
 cd safezone-rt-pipegen
 ```
 
@@ -313,7 +313,7 @@ Submit directly at the **Official PipeGen Track Form** ([https://forms.gle/eJyeC
 | **PipeGen Pipeline Summary (All 5 Stages)** | `1. Requirement: Plain-English prompt specifying video/webcam input, 5-class PPE/person detection, NvDCF tracking, polygon ROI hazard zone checks, VMS OSD display, JSON incident logging, and MQTT publishing. 2. Pipeline IR: Approved hardware-neutral node graph (nvurisrcbin -> nvstreammux -> nvinfer -> nvtracker -> nvdsanalytics -> nvdsosd -> nvmsgconv/broker). 3. Model: Structural ONNX inspection ([1, 3, 640, 640] in, [1, 9, 8400] out) + custom C++ parser (NvDsInferParseCustomYoloV8). 4. Compiler: Compiled to both FP16 and INT8 TensorRT engines with full speed and accuracy reports. 5. Run: One-command execution via ./run.sh with live VMS monitoring and laptop-native MQTT/JSON alert dashboard.` |
 | **Actionable Output Beyond Boxes** | `Emits real-time MQTT violation events (craftifai/safezone/alerts) and structured JSON logs consumed by our laptop-native safezone_laptop_sentinel.py service, which enforces 3-frame persistence filtering, fires instant laptop audio/desktop notifications, logs OSHA-style incident audit records (verified_incidents.jsonl), hosts a live web analytics dashboard on localhost:8080, and drives closed-loop physical actuators on an ESP32 in <50ms.` |
 | **Bonus Category Claimed** | `Edge Optimization Bonus (Track A): Quantized the ONNX detection model to an INT8 TensorRT engine alongside FP16 in PipeGen Stage 4, achieving 70.8 FPS (16.1x speedup), 0.984 bbox IoU agreement, and 74.3% engine size reduction directly from PipeGen's compiler reports.` |
-| **GitHub Repository Link** | `https://github.com/Hellinferno/safezone-rt-pipegen` |
+| **GitHub Repository Link** | `https://github.com/Hellinferno/CraftifAIHackathon_CRA001` |
 
 ---
 
